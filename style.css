@@ -16,13 +16,19 @@ body{
     justify-content: center;
     align-items: center;
 }
-.header h1{
+.header>h1{
     color: white;
+    font-size: 54px;
 }
 .catelog1{
     text-align: center;
     padding: 5px 0;
 }
+.catelog1>h1, .catelog2>h1{
+   background-color: antiquewhite;
+   padding: 3px 0;
+}
+
 .content{
     display: flex;
     justify-content: space-around;
@@ -30,10 +36,12 @@ body{
 }
 .catelog{
     width: 30%;
-
 }
 .catelog img{
     width: 50%;
+}
+.catelog>h1, .Scontent>h1{
+    font-size: 26px;
 }
 .catelog p{
     text-align: justify;
@@ -42,6 +50,18 @@ body{
     text-align: center;
     padding: 5px;
 }
+.storyContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Scontent{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
 footer{
     height: 2rem;
     display: flex;
